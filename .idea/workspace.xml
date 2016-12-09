@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878b196a-e9b5-432a-8253-0d3db1f6f4e6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/smartmirror_server.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/websocket/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smartmirror_server/settings.py" afterPath="$PROJECT_DIR$/smartmirror_server/settings.py" />
     </list>
     <ignored path="smartmirror_server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smartmirror_server/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2286">
-              <caret line="127" column="38" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
+            <state relative-caret-position="40">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -73,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="534">
-              <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
+              <caret line="179" column="10" selection-start-line="179" selection-start-column="10" selection-end-line="179" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -156,7 +152,6 @@
       <list>
         <option value="$PROJECT_DIR$/websocket/apps.py" />
         <option value="$PROJECT_DIR$/smartmirror_server/routing.py" />
-        <option value="$PROJECT_DIR$/smartmirror_server/settings.py" />
         <option value="$PROJECT_DIR$/smartmirror_server/urls.py" />
         <option value="$PROJECT_DIR$/templates/web.html" />
         <option value="$PROJECT_DIR$/websocket/__init__.py" />
@@ -166,6 +161,7 @@
         <option value="$PROJECT_DIR$/websocket/sender.py" />
         <option value="$PROJECT_DIR$/websocket/consumers.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/smartmirror_server/settings.py" />
       </list>
     </option>
   </component>
@@ -568,6 +564,14 @@
       <option name="presentableId" value="Default" />
       <updated>1481317885046</updated>
     </task>
+    <task id="LOCAL-00001" summary="Gitignore&#10;">
+      <created>1481320802816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481320802816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -605,6 +609,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gitignore&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gitignore&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -685,14 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smartmirror_server/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2286">
-          <caret line="127" column="38" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websocket/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -750,7 +750,15 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
-          <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
+          <caret line="179" column="10" selection-start-line="179" selection-start-column="10" selection-end-line="179" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartmirror_server/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding />
         </state>
       </provider>
