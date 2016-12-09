@@ -1,0 +1,10 @@
+
+<script>
+    var socket = new WebSocket("ws://" + window.location.host);
+    socket.onmessage = function(e) {
+        console.log(e);
+    };
+    setInterval(function () {
+        socket.send("KEK");
+    }, 1000);
+</script>
