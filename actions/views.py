@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 
-from websocket.sender import send_command
+from websocket.sender import send_command, send_status
 
 
 def swipe_left(request):
@@ -14,10 +14,11 @@ def swipe_right(request):
 
 
 def show(request):
-    send_command("show", {})
+    send_command("visible", True)
+    send_status()
     return JsonResponse({"result": "ok"})
 
 
 def hide(request):
-    send_command("hide", {})
+    send_command("visible", False)
     return JsonResponse({"result": "ok"})

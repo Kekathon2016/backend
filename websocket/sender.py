@@ -18,5 +18,5 @@ def send_name(dest=None):
     send_command("update_name", {"name": name}, dest)
 
 
-def send_status(dest):
+def send_status(dest=None):
     send_name(dest)
