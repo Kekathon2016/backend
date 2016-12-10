@@ -24,3 +24,13 @@ def hide(request):
     print("hide")
     send_command("visible", False)
     return JsonResponse({"result": "ok"})
+
+
+def show_table(request):
+    send_command("show_table", True)
+    return JsonResponse({"result": "ok"})
+
+
+def hide_table(request):
+    send_command("show_table", False)
+    return JsonResponse({"result": "ok"})

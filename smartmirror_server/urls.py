@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from actions.views import swipe_left, swipe_right, hide, show
+from actions.views import swipe_left, swipe_right, hide, show, show_table, hide_table
 from image_name.views import set_name
 from websocket.views import webpage
 
@@ -28,4 +28,6 @@ urlpatterns = [
     url(r'^actions/swipe_right', swipe_right),
     url(r'^actions/show', show),
     url(r'^actions/hide', hide),
+    url(r'^actions/show_timetable', show_table),
+    url(r'^actions/hide_timetable', hide_table),
 ]
