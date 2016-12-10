@@ -26,8 +26,8 @@ urlpatterns = [
     url(r'^names/set', set_name),
     url(r'^actions/swipe_left', swipe_left),
     url(r'^actions/swipe_right', swipe_right),
-    url(r'^actions/show$', show),
-    url(r'^actions/hide$', hide),
-    url(r'^actions/show_timetable$', show_table),
-    url(r'^actions/hide_timetable$', hide_table),
+    url(r'^actions/show', show),
+    url(r'^actions/hide', hide),
+    url(r'^actions/timetable_show', show_table),
+    url(r'^actions/timetable_hide', hide_table),
 ]
