@@ -14,11 +14,13 @@ def swipe_right(request):
 
 
 def show(request):
+    print("show")
     send_command("visible", True)
     send_status()
     return JsonResponse({"result": "ok"})
 
 
 def hide(request):
+    print("hide")
     send_command("visible", False)
     return JsonResponse({"result": "ok"})
