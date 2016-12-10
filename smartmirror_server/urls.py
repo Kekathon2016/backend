@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from gestures.views import swipe_left, swipe_right
+from actions.views import swipe_left, swipe_right, hide, show
 from image_name.views import set_name
 from websocket.views import webpage
 
@@ -24,6 +24,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', webpage),
     url(r'^names/set', set_name),
-    url(r'^gestures/swipe_left', swipe_left),
-    url(r'^gestures/swipe_right', swipe_right),
+    url(r'^actions/swipe_left', swipe_left),
+    url(r'^actions/swipe_right', swipe_right),
+    url(r'^actions/show', show),
+    url(r'^actions/hide', hide),
 ]
