@@ -4,7 +4,7 @@ from websocket.sender import send_command, send_status
 
 
 def swipe_left(request):
-    send_command("swipe", {"direction": "left("})
+    send_command("swipe", {"direction": "left"})
     return JsonResponse({"result": "ok"})
 
 
