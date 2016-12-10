@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'channels',
     'websocket',
     'image_name',
+    'gestures',
 ]
 
 MIDDLEWARE = [
