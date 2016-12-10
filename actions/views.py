@@ -4,12 +4,12 @@ from websocket.sender import send_command, send_status
 
 
 def swipe_left(request):
-    send_command("swipe_left", {})
+    send_command("swipe", {"direction": "left("})
     return JsonResponse({"result": "ok"})
 
 
 def swipe_right(request):
-    send_command("swipe_right", {})
+    send_command("swipe", {"direction": "right"})
     return JsonResponse({"result": "ok"})
 
 
