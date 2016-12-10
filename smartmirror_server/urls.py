@@ -16,9 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from image_name.views import set_name
 from websocket.views import webpage
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', webpage),
+    url(r'^set_name', set_name)
 ]

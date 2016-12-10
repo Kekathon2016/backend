@@ -25,7 +25,7 @@ SECRET_KEY = '^1529(#dqc$dr-^imy_2x3jfl(anz0-p!n#lsr86%&)*8-@hzr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['52.178.154.133']
+ALLOWED_HOSTS = ['52.178.154.133', '127.0.0.1']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'channels',
     'websocket',
+    'image_name',
 ]
 
 MIDDLEWARE = [
